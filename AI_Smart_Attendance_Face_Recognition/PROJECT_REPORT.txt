@@ -1,0 +1,56 @@
+
+AI-BASED SMART ATTENDANCE USING FACE RECOGNITION
+
+ABSTRACT
+This project develops an automated attendance system using computer vision and face recognition.
+The system captures student face samples, trains a recognition model, identifies registered students
+through a webcam, and records attendance with date and time in an SQLite database.
+
+OBJECTIVES
+1. Reduce manual attendance work.
+2. Automatically identify registered students.
+3. Store attendance digitally.
+4. Generate a simple attendance report.
+5. Demonstrate practical use of AI and computer vision.
+
+TECHNOLOGIES
+Python, OpenCV, LBPH Face Recognizer, Haar Cascade, NumPy and SQLite.
+
+MODULES
+1. Student Registration
+2. Face Sample Collection
+3. Model Training
+4. Face Recognition
+5. Attendance Database
+6. Attendance Report
+
+WORKING
+The webcam captures a student's face. Haar Cascade detects the face region. Multiple samples
+are collected during registration. LBPH is trained using these samples. During attendance,
+the trained model predicts the student ID. If the confidence threshold is acceptable, the
+student's attendance is stored with the current date and time. Duplicate attendance for the
+same student on the same day is prevented.
+
+ADVANTAGES
+- Saves time
+- Reduces manual entry
+- Easy digital records
+- Low-cost implementation
+- Simple to demonstrate
+
+LIMITATIONS
+- Performance can change with lighting and camera quality.
+- Basic LBPH recognition is not as robust as modern deep-learning face embeddings.
+- The system requires registered face samples.
+
+FUTURE SCOPE
+- Web dashboard
+- Cloud database
+- Email/SMS notifications
+- Mobile application
+- Better deep-learning face embeddings
+- Anti-spoofing/liveness detection
+
+CONCLUSION
+The project demonstrates a practical AI-based attendance solution using face recognition.
+It provides an easy way to register students, recognize faces and maintain digital attendance records.

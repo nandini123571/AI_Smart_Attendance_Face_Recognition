@@ -1,0 +1,55 @@
+
+SLIDE 1: TITLE
+AI-Based Smart Attendance Using Face Recognition
+Presented by: __________
+College: __________
+
+SLIDE 2: INTRODUCTION
+- Manual attendance is time-consuming.
+- Face recognition can automate attendance.
+- Webcam captures and identifies registered students.
+
+SLIDE 3: PROBLEM STATEMENT
+- Manual attendance takes classroom time.
+- Proxy attendance can occur.
+- Paper records are difficult to manage.
+
+SLIDE 4: OBJECTIVES
+- Automate attendance.
+- Identify registered students.
+- Store date and time.
+- Generate attendance reports.
+
+SLIDE 5: TECHNOLOGIES
+- Python
+- OpenCV
+- LBPH Face Recognition
+- Haar Cascade
+- NumPy
+- SQLite
+
+SLIDE 6: SYSTEM FLOW
+Registration → Face Samples → Training → Camera → Face Recognition → Attendance Database → Report
+
+SLIDE 7: MODULES
+- Registration
+- Training
+- Recognition
+- Attendance
+- Report
+
+SLIDE 8: ADVANTAGES
+- Fast
+- Simple
+- Digital records
+- Low cost
+
+SLIDE 9: FUTURE SCOPE
+- Web dashboard
+- Cloud storage
+- Mobile app
+- Liveness detection
+- Deep-learning recognition
+
+SLIDE 10: CONCLUSION
+The system provides a simple automated attendance solution using AI and computer vision.
